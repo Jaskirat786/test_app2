@@ -1,7 +1,7 @@
 package com.example.kolo2assignment.comic_model
 
 data class Result(
-    val characters: Characters,
+    val character: Character,
     val collectedIssues: List<CollectedIssue>,
     val collections: List<Any>,
     val creators: Creators,

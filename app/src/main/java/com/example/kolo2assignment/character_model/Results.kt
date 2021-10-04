@@ -1,6 +1,6 @@
 package com.example.kolo2assignment.character_model
 
-data class Result(
+data class Results(
     val comics: Comics,
     val description: String,
     val events: Events,

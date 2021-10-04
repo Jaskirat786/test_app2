@@ -24,16 +24,19 @@ class MainActivity : AppCompatActivity() {
         private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
                 R.id.tab1 -> {
-                    intent = Intent(this, FirstTabActivity::class.java)
-                    startActivity(intent)
-                }
 
+                    val fragment1 =FirstTabFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, fragment1, fragment1.javaClass.getSimpleName())
+                        .commit()
+                    return@OnNavigationItemSelectedListener true
+                }
                 R.id.tab2 -> {
 
-                    intent = Intent(this, SecondTabActivity::class.java)
-                    startActivity(intent)
+                    val fragment2 = SecondTabFragment()
+                    supportFragmentManager.beginTransaction().replace(R.id.container, fragment2, fragment2.javaClass.getSimpleName())
+                        .commit()
+                    return@OnNavigationItemSelectedListener true
                 }
-
             }
             true
     }

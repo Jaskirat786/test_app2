@@ -5,11 +5,10 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-
     <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_width="match_parent"
-        android:layout_height="66dp"
+        android:layout_height="50dp"
         android:layout_marginTop="4dp"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
@@ -23,7 +22,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:text="Comics"
+        android:text="Characters"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         android:textColor="@color/black"
         android:textSize="24sp"
@@ -41,7 +40,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/toolbar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_filter" />
+        app:srcCompat="@drawable/ic_search" />
 
     <View
         android:id="@+id/dividerView"
@@ -52,26 +51,9 @@
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:id="@+id/recycler_view"
         app:layout_constraintTop_toBottomOf="@+id/dividerView"/>
-
-
-<!--    <GridView-->
-<!--        android:id="@+id/comics_layout"-->
-<!--        android:layout_width="match_parent"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:layout_constraintTop_toBottomOf="@+id/dividerView"-->
-<!--        android:horizontalSpacing="6dp"-->
-<!--        android:numColumns="2"-->
-<!--        android:verticalSpacing="6dp" />-->
-
-    <TextView
-        android:id="@+id/course_error_text"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:text="ERROR"
-        android:visibility="gone" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
