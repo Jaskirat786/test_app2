@@ -2,8 +2,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/tab1"
-        android:title="TAB1" />
+        android:title="Characters" />
     <item
         android:id="@+id/tab2"
-        android:title="TAB2" />
+        android:title="Comics" />
 </menu>

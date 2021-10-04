@@ -6,11 +6,16 @@
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/drawable-v24/ic_filter.xml" value="0.24444444444444444" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2703125" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/drawable-v24/ic_search.xml" value="0.24444444444444444" />
+        <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/drawable/ic_cancel.xml" value="0.2703125" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2703125" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/activity_first_tab.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/activity_second_tab.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/first_tab_items.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/fragment_first_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/fragment_second_tab.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/page_progress_bar.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/search_layout.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/layout/second_tab_items.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/jaskirat/Kolo2Assignment/app/src/main/res/menu/navigation_menu.xml" value="0.25416666666666665" />
       </map>
