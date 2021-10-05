@@ -20,15 +20,16 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.bottomNavigationView.isSelected
         binding.bottomNavigationView.setOnNavigationItemSelectedListener(
             mOnNavigationItemSelectedListener
         )
     }
 //Bottom navigation for showing different tabs
 
-    private val mOnNavigationItemSelectedListener =
-        BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
+    private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { menuItem ->
             when (menuItem.itemId) {
+
                 R.id.tab1 -> {
                     //showing progress bar
                     binding.bar.setVisibility(View.VISIBLE)

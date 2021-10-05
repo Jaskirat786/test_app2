@@ -49,6 +49,7 @@ class FirstTabFragment : Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
+
         //Binding the data
         binding = FragmentFirstTabBinding.inflate(inflater, container, false)
         val view = binding.root

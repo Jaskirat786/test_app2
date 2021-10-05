@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/this_week"
+        android:title="Released this week" />
+    <item
+        android:id="@+id/last_week"
+        android:title="Released last week" />
+    <item
+        android:id="@+id/next_week"
+        android:title="Releasing next week" />
+    <item
+        android:id="@+id/this_month"
+        android:title="Releasing this month" />
+
+
+</menu>
