@@ -20,7 +20,19 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        binding.bottomNavigationView.isSelected
+        //Showing loader in main screen
+        binding.bar.setVisibility(View.VISIBLE)
+        val handler = Handler()
+        handler.postDelayed({
+            binding.bar.setVisibility(View.GONE)
+        }, 2000)
+
+        //Showing tab1 in main screen
+        val fragment1 = FirstTabFragment()
+        supportFragmentManager.beginTransaction()
+            .replace(R.id.container, fragment1, fragment1.javaClass.getSimpleName())
+            .commit()
+
         binding.bottomNavigationView.setOnNavigationItemSelectedListener(
             mOnNavigationItemSelectedListener
         )
